@@ -1,6 +1,7 @@
 $colorbtn: #16A34A;
 $hoverbtn: #21C05C;
 $textbtn: #FFFFFF;
+$radius: 0.375rem;
 
 body {
     margin: 0;
@@ -8,27 +9,36 @@ body {
 }
 
 .logo {
-    width: 245px;
-    height: 43px;
+    width: 15.31rem;
+    height: 2.69rem;
 }
 
 header {
-    height: 60px;
-    margin: 31px 37px;
-    padding: 10px;
+    width: 92vw;
+    height: 3.75rem;
+    margin: 1.94rem 2.31rem;
+    padding: 0.625rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #B4AEAE;
-    box-shadow: 4px #B4AEAE;
+    box-shadow: 0.25rem #B4AEAE;
 }
 
 nav {
-    height: 60px;
+    height: 3.75rem;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+ul a {
+    color: #4B5563;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 a {
@@ -36,11 +46,11 @@ a {
 }
 
 .button-primary {
-    width: 160px;;
-    height: 60px;
+    width: 11.81rem;
+    height: 3.75rem;
     background-color: $colorbtn;
-    border-radius: 6px;
-    border: 1px;
+    border-radius: $radius;
+    border: 1px solid;
     border-color: $colorbtn;
 }
 
@@ -56,4 +66,214 @@ a {
 
 ul a {
     color: #4B5563;
+}
+
+
+h1 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.75rem;
+}
+
+p {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.title {
+    width: 92vw;
+    margin: 5rem 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.article-title {
+    gap: 2rem;
+    height: 11.69rem;
+    width: 42.38rem;
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+}
+
+.buttons-title {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem; 
+    margin-top: 1rem;
+}
+
+.quero_doar {
+    width: 11.81rem;
+    height: 3.75rem;
+    background-color: $colorbtn;
+    color: $textbtn;
+    border: 1px solid;
+    border-color: $colorbtn;
+    border-radius: $radius;
+}
+
+.quero_doar a {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    color: $textbtn;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.quero_doar:hover {
+    background-color: $hoverbtn;
+    border-color: $hoverbtn;
+    cursor: pointer;
+}
+
+.quero_adquirir {
+    width: 11.81rem;
+    height: 3.75rem;
+    color: #2563EB;
+    border: 1px solid;
+    border-color: #2563EB;
+    border-radius: $radius;
+}
+
+.quero_adquirir a {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    color: #2563EB;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}   
+
+.quero_adquirir:hover {
+    cursor: pointer;
+    background-color: #dfe3ee;
+    border-color: #3b5998;
+}
+
+
+.dados {
+    width: 92vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 13.42rem;
+}
+
+.dados article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hcard {
+    margin: 0;
+    padding: 0;
+    width: 16rem;
+    height: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: $colorbtn;
+}
+
+.pcard {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #4B5563;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.comofunciona {
+    margin: 7rem 6rem;
+    width: 40vw;
+}
+
+.comofunciona p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.56rem;
+}
+
+.cards_usu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    width: 92vw;
+    height: 30.06rem;
+}
+
+.title_tutorial {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #09090B;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    width: 25.06rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #FFFFFF;
+}
+
+li p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #4B5563;
+    
+}
+
+ol {
+    list-style: none;
+    counter-reset: contador;
+}
+
+ol li {
+    counter-increment: contador;
+}
+
+ol li::before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: counter(contador);
+    background: #16A34A;
+    color: #FFFFFF;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 0.875rem;
 }
