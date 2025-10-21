@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   padding: 0;
 }
@@ -26,6 +26,7 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 1rem;
 }
 
 ul a {
@@ -80,19 +81,14 @@ p {
 }
 
 .title {
-  width: 92vw;
-  margin: 5rem 3rem;
+  margin: 3rem 3rem;
   display: flex;
   justify-content: space-evenly;
-  flex-direction: row;
 }
 
 .article-title {
   gap: 2rem;
-  height: 11.69rem;
-  width: 42.38rem;
   display: flex;
-  align-content: space-around;
   flex-direction: column;
 }
 
@@ -159,25 +155,15 @@ p {
 }
 
 .dados {
-  width: 92vw;
   text-align: center;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 13.42rem;
-}
-
-.dados article {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  justify-content: space-between;
+  margin: 2rem 10rem;
 }
 
 .hcard {
   margin: 0;
   padding: 0;
-  width: 16rem;
-  height: 2.5rem;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -201,8 +187,7 @@ h2 {
 }
 
 .comofunciona {
-  margin: 7rem 6rem;
-  width: 40vw;
+  margin: 7rem 8rem;
 }
 
 .comofunciona p {
@@ -216,9 +201,15 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 1rem;
-  width: 92vw;
-  height: 30.06rem;
+  gap: 2rem;
+}
+
+.pdoadq {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  color: #4B5563;
 }
 
 .title_tutorial {
@@ -232,12 +223,6 @@ h2 {
 li {
   display: flex;
   flex-direction: column;
-  width: 25.06rem;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 0.875rem;
-  color: #FFFFFF;
 }
 
 li p {
@@ -248,24 +233,194 @@ li p {
   color: #4B5563;
 }
 
-ol {
-  list-style: none;
-  counter-reset: contador;
-}
-
-ol li {
-  counter-increment: contador;
-}
-
-ol li::before {
+.card_comofunciona1 {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  content: counter(contador);
-  background: #16A34A;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+
+.card_comofunciona1 li {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.7rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
   color: #FFFFFF;
+}
+
+.circle1 {
+  display: flex;
+  background-color: #16A34A;
+  color: #FFFFFF;
+  border-radius: 50%;
   width: 2rem;
   height: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle2 {
+  display: flex;
+  background-color: #2563EB;
+  color: #FFFFFF;
   border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_comofunciona2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+
+.card_comofunciona2 li {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.7rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 0.875rem;
+  color: #FFFFFF;
+}
+
+.card_doar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card_adquirir {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title_card1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.56rem;
+  color: #16A34A;
+}
+
+.title_card2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.56rem;
+  color: #2563EB;
+}
+
+.card_doadores {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card_adquirentes {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  margin: 12rem 8rem;
+  gap: 3rem;
+}
+
+.card_products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.card_products article {
+  width: 16rem;
+  height: 27.25rem;
+  border: 2px solid #16A34A;
+  border-radius: 8px;
+}
+
+.products_div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.products_img {
+  width: 16rem;
+  height: 12rem;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #1F2937;
+}
+
+.pproduct {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.56rem;
+  color: #4B5563;
+}
+
+.desc_products {
+  height: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.title_product {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #09090B;
+}
+
+.p_product {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #4B5563;
+}
+
+.btn_product {
+  background-color: #16A34A;
+  color: #FFFFFF;
+  border: 1px solid #16A34A;
+  border-radius: 6px;
+  width: 9.375rem;
+  height: 2.31rem;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.87rem;
+}
+
+.btn_product:hover {
+  background-color: #21C05C;
 }/*# sourceMappingURL=style.css.map */
