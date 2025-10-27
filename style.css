@@ -423,4 +423,191 @@ h3 {
 
 .btn_product:hover {
   background-color: #21C05C;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #1F2937;
+}
+
+.avdesc {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.56rem;
+  color: #4B5563;
+}
+
+.avaliacao {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.av {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_av {
+  width: 21.125rem;
+  height: 18.75rem;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-left: 4px;
+  border-style: solid;
+  border-color: #9CA3AF;
+  border-radius: 8px;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+
+.usuario_av {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.star {
+  width: 7.5rem;
+  height: 1.5rem;
+}
+
+.cards_av {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 2rem;
+  gap: 5rem;
+}
+
+.desc_av {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #4B5563;
+}
+
+.doador_av {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: #09090B;
+}
+
+.class {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: #6B7280;
+}
+
+.usuario_av div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.diferenca {
+  display: flex;
+  flex-direction: column;
+  margin: 6rem 3rem;
+  height: 25.31rem;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  text-align: center;
+}
+
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #000000;
+}
+
+.p_dif {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.56rem;
+  color: #000000;
+}
+
+.buttons_dif {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.button_dif1 {
+  width: 11.81rem;
+  height: 2.75rem;
+  background-color: #16A34A;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  border: 1px solid #16A34A;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button_dif1:hover {
+  background-color: #21C05C;
+}
+
+.button_dif2 {
+  width: 9.81rem;
+  height: 2.75rem;
+  background-color: #FFFFFF;
+  color: #16A34A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  border: 1px solid #16A34A;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1F2937;
+}
+
+.footer_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  gap: 5rem;
+}
+
+.footer_bottom {
+  padding-top: 2rem;
+  border-top: 1px solid #4B5563;
+}
+
+.title_column {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+.p_footer {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #9CA3AF;
+}
+
+.footer_bottom {
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }/*# sourceMappingURL=style.css.map */
